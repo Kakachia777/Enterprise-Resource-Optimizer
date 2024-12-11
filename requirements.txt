@@ -1,0 +1,53 @@
+# Core dependencies
+fastapi==0.95.2
+uvicorn==0.22.0
+python-dotenv==1.0.0
+pydantic==1.10.7
+sqlalchemy==2.0.15
+alembic==1.11.1
+
+# Database
+psycopg2-binary==2.9.6
+redis==4.5.5
+
+# Data processing and ML
+pandas==2.0.2
+numpy==1.24.3
+scikit-learn==1.2.2
+xgboost==1.7.5
+prophet==1.1.4
+pulp==2.7.0
+deap==1.3.3
+networkx==3.1
+
+# Testing
+pytest==7.3.1
+pytest-cov==4.0.0
+pytest-asyncio==0.21.0
+httpx==0.24.1
+
+# Code quality
+black==23.3.0
+flake8==6.0.0
+mypy==1.3.0
+isort==5.12.0
+
+# Documentation
+sphinx==7.0.1
+sphinx-rtd-theme==1.2.0
+
+# Monitoring and logging
+prometheus-client==0.17.0
+python-json-logger==2.0.7
+
+# AWS integration
+boto3==1.26.137
+moto==4.1.11
+
+# Development
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Optimization
+cvxopt==1.3.0
+scipy==1.10.1 
